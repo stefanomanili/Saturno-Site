@@ -112,7 +112,10 @@ section p.lead{ max-width:560px; color:var(--muted); margin:0 0 50px; font-size:
 
 /* ---- shop ---- */
 .shop-grid{ display:grid; grid-template-columns:.85fr 1fr; gap:70px; align-items:center; }
-@media(max-width:900px){ .shop-grid{ grid-template-columns:1fr; } }
+@media(max-width:900px){
+  .shop-grid{ grid-template-columns:1fr; }
+  .shop-visual{ order:2; margin-top:20px; }
+}
 .shop-visual{ display:flex; align-items:center; justify-content:center; padding:20px; }
 .shop-visual .ring-graphic{ width:100%; max-width:320px; }
 
