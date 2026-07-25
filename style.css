@@ -47,7 +47,7 @@ header.site .bar{
   padding:22px 32px;
   max-width:var(--maxw); margin:0 auto;
 }
-header.site img.logo{height:32px;}
+header.site img.logo{height:44px;}
 nav.main{display:flex; align-items:center;}
 nav.main a{
   margin-left:34px; font-size:12.5px; font-weight:500;
@@ -176,7 +176,7 @@ section p.lead{ max-width:560px; color:var(--muted); margin:0 0 50px; font-size:
 /* ---- footer ---- */
 footer{ background:var(--ink); color:#9CA096; padding:60px 0 30px; font-size:13px; }
 footer .fgrid{ display:flex; justify-content:space-between; flex-wrap:wrap; gap:40px; }
-footer img.flogo{ height:26px; margin-bottom:16px; filter:brightness(0) invert(1); opacity:.85; }
+footer img.flogo{ height:36px; margin-bottom:16px; filter:brightness(0) invert(1); opacity:.85; }
 footer a{ opacity:.85; }
 footer a:hover{ opacity:1; }
 footer .links a{ display:block; margin-bottom:10px; font-size:12.5px; letter-spacing:.04em; }
