@@ -107,6 +107,7 @@ section h2{
 section h3.big{
   font-size:32px; font-weight:300; color:var(--ink); margin:0 0 22px; max-width:640px;
 }
+.dot-red{ color:var(--red); }
 section p.lead{ max-width:560px; color:var(--muted); margin:0 0 50px; font-size:15.5px; }
 .section-alt{ background:var(--paper); }
 
@@ -164,7 +165,6 @@ section p.lead{ max-width:560px; color:var(--muted); margin:0 0 50px; font-size:
 /* ---- brand story ---- */
 .story{ background:var(--ink); color:var(--cream); text-align:center; }
 .story img.mini{ height:26px; margin-bottom:30px; opacity:.9; }
-.story h3.big .dot-red{ color:var(--red); }
 .story h3.big{ color:var(--cream); margin:0 auto 22px; }
 .story p{ max-width:560px; margin:0 auto; color:#B9BDB2; font-size:15px; }
 
